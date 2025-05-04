@@ -66,9 +66,7 @@
 
 ## 🎥 App Demo Video
 
-<p align="center">
-  <video src="./appvideo.mp4" width="300" autoplay muted loop playsinline></video>
-</p>
+<video src="./appvideo.mp4" width="180" autoplay muted loop playsinline></video>
 
 
 
