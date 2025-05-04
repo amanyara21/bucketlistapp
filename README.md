@@ -66,11 +66,11 @@
 
 ## 🎥 App Demo Video
 
-[https://github.com/amanyara21/bucketlistapp/appvideo.mp4](https://github.com/amanyara21/bucketlistapp/assets/appvideo.mp4)
+[https://github.com/amanyara21/bucketlistapp/appvideo.mp4](./appvideo.mp4)
 
 ---
 
 ## 🖼️ Screenshot
 
-![Travel Bucket List Screenshot](./appss.jpg)
+![Travel Bucket List Screenshot](https://github.com/amanyara21/bucketlistapp/Appss.jpg)
 
