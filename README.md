@@ -66,7 +66,9 @@
 
 ## 🎥 App Demo Video
 
-<video src="https://github.com/user-attachments/assets/25f7117e-2c5b-49d2-a175-bd0f416d9d69" autoplay muted loop playsinline width="180"/>
+<video src="https://github.com/user-attachments/assets/25f7117e-2c5b-49d2-a175-bd0f416d9d69" autoplay muted loop playsinline width="180"></video>
+
+----
 
 ![Travel Bucket List Screenshot](/Appss.jpg)
 
