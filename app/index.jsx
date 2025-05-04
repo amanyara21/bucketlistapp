@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function Index() {
-  const [value, setValue] = useState("");
-  const [destination, setDestination] = useState([]);
+  const [value, setValue] = useState(""); // State for text input
+  const [destination, setDestination] = useState([]); // State for the Destination List
 
   useEffect(() => {
     getAllLocations();
@@ -23,7 +23,7 @@ export default function Index() {
       return;
     }
     try {
-      await AsyncStorage.setItem(text, JSON.stringify(false));
+      await AsyncStorage.setItem(text, JSON.stringify(false)); // Add Name as Key and visited(false as default) as value in Async Storage
       getAllLocations();
       Alert.alert("Location Added Successfully");
       setValue("");
@@ -32,7 +32,7 @@ export default function Index() {
     }
   }
 
-
+  // Get All the data from Async Storage by getting all the keys and then get all items from the keys as store it in the state
   const getAllLocations = async () => {
     try {
       const keys = await AsyncStorage.getAllKeys();
@@ -49,6 +49,7 @@ export default function Index() {
     }
   }
 
+  // Function for toggle visited value (true-> false or false-> true) and save it into AsyncStorage
   const toggleVisited = async (key) => {
     try {
       const item = destination.find((d) => d.key === key);
@@ -61,6 +62,7 @@ export default function Index() {
     }
   };
 
+  // Function to Delete Item using key
   const deleteItem = async (key) => {
     try {
       await AsyncStorage.removeItem(key);
